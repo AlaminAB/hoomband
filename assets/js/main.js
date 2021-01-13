@@ -161,6 +161,9 @@ $('.burger-btn').click(function(){
 $('.close-btn').click(function(){
     $('.nav-items').css("left",'-100%')
 })
+$(".nav-items ul li a").click(function(){
+    $('.nav-items').css("left",'-100%')
+})
 document.addEventListener("scroll",function(){
     if($(window).scrollTop() > 1200){
         $('.buy-btn-slider').removeClass("hide-btn")

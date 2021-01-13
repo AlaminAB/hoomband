@@ -16,8 +16,7 @@
   <link rel="stylesheet" href="assets/css/jquery.fancybox.css">
   <link rel="stylesheet" href="assets/css/splide.css">
   <!-- Main Style -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/style.min.css">
 
 
 </head>
@@ -25,7 +24,7 @@
 <body>
 
 
-  <header id="header">
+  <header id="header" class="sticky-top">
     <div class="container">
       <nav>
         <div class="burger-btn d-block d-md-none">
@@ -34,14 +33,14 @@
         <div class="header-logo">
           <img src="assets/img/hoomband-wireless-logo.svg" alt="logo">
         </div>
-        <a href="" class="cart-icon d-block d-md-none"><img src="assets/img/cart.svg" alt="cart"></a>
+        <a href="#price" class="cart-icon d-block d-md-none"><img src="assets/img/cart.svg" alt="cart"></a>
         <div class="nav-items">
           <button class="close-btn d-block d-md-none"><img src="assets/img/close-btn.svg" alt="close-btn"></button>
           <ul>
-            <li><a href=""> App</a></li>
-            <li><a href=""> Headband</a></li>
-            <li><a href=""> Reviews</a></li>
-            <li><a href="">Questions </a></li>
+            <li><a href="#app"> App</a></li>
+            <li><a href="#headband"> Headband</a></li>
+            <li><a href="#reviews"> Reviews</a></li>
+            <li><a href="#faq">Questions </a></li>
             <li class="buy-now-btn"><a href=""> Buy now</a></li>
             <!-- <li class="langues-change"><a href="">FR</a>/<a href="">EN</a></li> -->
           </ul>
@@ -175,7 +174,7 @@
 
   <!-- audio section  -->
 
-  <div class="audio-section">
+  <div class="audio-section" id="app">
     <div class="container">
       <div class="audio-title">
         <span>The App</span>
@@ -751,7 +750,7 @@
   </div>
 
 
-<div class="head-band-section">
+<div class="head-band-section" id="headband">
   <div class="container">
     <div class="headband-title">
       <span>THE HEADBAND</span>
@@ -837,7 +836,7 @@
 
 
 
-<div class="review-section">
+<div class="review-section" id="reviews">
   <div class="container">
     <div class="review-title">
       <span>REVIEWS</span>
@@ -912,7 +911,7 @@
 
 <!-- price section  -->
 
-<div class="price-section">
+<div class="price-section" id="price">
   <div class="container">
     <div class="review-title">
       <span>GET YOUR HOOMBAND NOW      </span>
@@ -1094,7 +1093,7 @@
 
 
 
-<div class="faq-section">
+<div class="faq-section" id="faq">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -1204,11 +1203,7 @@
   <script src="assets/js/splide.js"></script>
   <script src="assets/js/jquery.fancybox.js"></script>
   <script src="assets/js/fancybox-media.js"></script>
-  <script src="assets/js/main.js"></script>
-
-  <script>
-
-  </script>
+  <script src="assets/js/main.min.js"></script>
 
 
 </body>

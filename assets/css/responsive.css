@@ -220,10 +220,10 @@ h2 {
 .App-experts-mobile-slider {
     display: block;
 }
-.slider-section blockquote {
+/* .slider-section blockquote {
     width: 100% !important;
     max-width: 506px !important;
-}
+} */
 .headband-img img {
     width: 100%;
     max-width: 500px;
