@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0aa;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_333" data-name="Group 333" transform="translate(-28 -945)">
+    <circle id="Ellipse_117" data-name="Ellipse 117" class="cls-1" cx="17" cy="17" r="17" transform="translate(28 945)"/>
+    <g id="Group_288" data-name="Group 288" transform="translate(37.943 954.688)">
+      <rect id="Rectangle_329" data-name="Rectangle 329" class="cls-2" width="15" height="15" transform="translate(0.057 0.313)"/>
+      <path id="Path_907" data-name="Path 907" class="cls-3" d="M748.846,334v.228a5.24,5.24,0,1,1-10.479,0V334H737v.228a6.616,6.616,0,0,0,5.923,6.571v1.4h1.367v-1.4a6.616,6.616,0,0,0,5.923-6.571V334Z" transform="translate(-736.544 -327.621)"/>
+      <path id="Path_908" data-name="Path 908" class="cls-3" d="M746.873,321.367a2.509,2.509,0,0,1,2.506,2.506v2.734a2.506,2.506,0,1,1-5.012,0v-2.734a2.509,2.509,0,0,1,2.506-2.506m0-1.367A3.873,3.873,0,0,0,743,323.873v2.734a3.873,3.873,0,1,0,7.746,0v-2.734A3.873,3.873,0,0,0,746.873,320Z" transform="translate(-739.811 -320)"/>
+    </g>
+  </g>
+</svg>

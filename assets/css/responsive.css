@@ -1,0 +1,384 @@
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px){ 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1 {
+        font-size: 40px;
+    }
+    .banner-content {
+    max-width: 530px;
+}
+.review-single-card {
+    background: #f0f2f7;
+    padding: 25px 18px;
+    border-radius: 8px;
+    height: 100%;
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner-content {
+        max-width: 500px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    @keyframes defilement {
+        0% {
+            transform: translateX(0) ;
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+        }
+      
+        to {
+            transform: translateX(-45%) ;
+            -webkit-transform: translateX(-450%) ;
+            -moz-transform: translateX(-450%) ;
+            -ms-transform: translateX(-450%) ;
+            -o-transform: translateX(-450%) ;
+}
+      }
+      .App-hypnotic-stories-example-bg {
+        padding: 25px;
+    }
+    .App-hypnotic-stories-animation-steps {
+        padding-top: .2rem;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .App-hypnotic-stories-animation-progressbar {
+        margin-left: 12px;
+    }
+    .slider-section blockquote {
+       
+        max-width:350px !important;
+    }
+    .App-experts-desktop-slide-quote {
+        font-size: 17px;
+        line-height: 1.3;
+    }
+    .review-single-card {
+        padding: 20px;
+        height: 100%;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .nav-items ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    } 
+    .nav-items {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        background: red;
+        background-color: #1f3466;
+        background-image: url(../img/stars.svg),linear-gradient(#1f3466,#5071c7);
+        background-size: cover;
+        left: 0;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        transition: .3s ease-in-out;
+        display: flex;
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+        left:-100%;
+    }
+    .nav-items ul li a {
+        font-size: 28px;
+        padding: 0;
+        font-family: 'Freighttextpro';
+        color: #fff;
+        margin-bottom: 15px;
+        display: block;
+    }
+    li.langues-change a {
+        font-size: 16px !important;
+        display: inline-block;
+        margin: 0px 8px;
+    }
+    li.langues-change {
+        margin-left: 16px;
+        color: #5071c7;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: flex;
+    }
+    button.burger-btn {
+        border: none;
+        background: none;
+    }
+    button.close-btn {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        background: none;
+        border: none;
+    }
+    #header {
+        padding: 18px 0px;
+    }
+
+    .banner-area {
+        background-image: url(../img/hoomband-wireless-cover-sm.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        align-items: self-start;
+    }
+    h1 {
+        font-size: 27px;
+        text-align: center;
+    }
+    .banner-content {
+        max-width: 100%;
+        text-align: center;
+        padding-top: 70px;
+    }
+    .brands-area .container {
+        padding: 0 !important;
+    }
+    
+@keyframes defilement {
+    0% {
+        transform: translateX(0) ;
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+    }
+  
+    to {
+        transform: translateX(-60%) ;
+        -webkit-transform: translateX(-60%) ;
+        -moz-transform: translateX(-60%) ;
+        -ms-transform: translateX(-60%) ;
+        -o-transform: translateX(-60%) ;
+}
+  }
+  .features-title h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.app-row {
+    display: block;
+    margin-top: 35px;
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+.app-container {
+    width: 100%;
+    max-width: 100%;
+    margin-right: 0px;
+}
+.single-app {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.the-app {
+    margin-bottom: 31px;
+}
+.audio-title h2 {
+    font-size: 25px;
+}
+.App-hypnotic-stories-animation-steps {
+    padding-top: .2rem;
+    padding-left: 10px;
+    padding-right: 0;
+
+}
+
+.App-hypnotic-stories-animation-progressbar {
+    height: 100%;
+    margin-right: 25px;
+    left: 15px;
+}
+.App-hypnotic-stories-animation {
+    margin-bottom: 40px;
+}
+.App-experts-desktop-slider-container {
+    display: none !important;
+}
+.App-experts-mobile-slider {
+    display: block;
+}
+.slider-section blockquote {
+    width: 100% !important;
+    max-width: 506px !important;
+}
+.headband-img img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.first-review-card {
+    min-height: 400px;
+}
+.review-single-card {
+    margin-top: 30px;
+    height: auto;
+}
+.review-title h2 {
+    font-family: FreightTextPro,serif;
+    font-size: 25px;
+    color: #221980;
+}
+.price-wrap {
+    display: block;
+    
+}
+
+.price-img {
+    max-width: 200px;
+    width: 100%;
+    transform: scale(1.1);
+}
+.single-price {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    height: auto;
+}
+.single-price.middle-price {
+    box-shadow: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+    z-index: 999;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 25px;
+}
+.price-footer {
+    text-align: center;
+    padding-top: 0;
+    width: 100%;
+}
+img.recomended-batch {
+    max-width: 85px;
+    width: 100%;
+}
+.price-footer h6 {
+    display: inline;
+    font-size: 13px;
+    margin-bottom: 4px;
+    margin-top: 11px;
+    background: #0aa;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 1.5;
+    padding: 0px 7px;
+}
+h6.no-bg {
+    background: transparent;
+    color: #5071c7;
+}
+.App-hypnotic-stories-example-bg {
+    padding: 30px;
+}
+.App-hypnotic-stories-example-title {
+    color: #ffffff;
+    font-size: 40px;
+}
+a.buy-btn-slider {
+    position: fixed;
+    bottom: 20px;
+    z-index: 99999;
+    display: inline-block;
+    width: 100%;
+    max-width: 230px;
+    text-align: center;
+}
+.payment-wrap {
+    display: block;
+}
+.payment-gurrenty {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.buy-btn-slider.hide-btn {
+    display: none;
+}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 450.98px) { 
+    h5.sm-show.d-block.d-md-none {
+        font-size: 13px;
+    }
+
+    .single-price {
+        padding: 15px;
+    }
+    .price-footer h3 {
+        font-size: 20px;
+    }
+    .price-footer a {
+        display: inline-block;
+        border: 2px solid #ff548d;
+        font-size: 12px;
+        font-family: AribauGroteskBold,sans-serif;
+        font-weight: 700;
+        padding: 10px 18px;
+        border-radius: 36px;
+        text-transform: uppercase;
+        margin-top: 0;
+    }
+    .slider-section blockquote {
+        width: 100% !important;
+        max-width: 325px !important;
+    }
+    .price-img {
+        max-width: 120px;
+        width: 100%;
+        transform: scale(1.4);
+    }
+    tbody tr th, td {
+        font-size: 13px;
+        
+    }
+    .table-wrap table tr, th, td {
+       
+        padding: 10px;
+    }
+    thead tr th:nth-child(3) {
+        width: 90px !important;
+    }
+    .footer-content {
+        display: block;
+        text-align: center;
+    }
+    .footer-right {
+        margin-top: 25px;
+    }
+    .footer-left ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}

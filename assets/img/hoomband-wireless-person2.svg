@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="icon-x2dodow" transform="translate(-339 -318)">
+    <path id="Rectangle_197" data-name="Rectangle 197" d="M7,0H7a7,7,0,0,1,7,7V8a0,0,0,0,1,0,0H0A0,0,0,0,1,0,8V7A7,7,0,0,1,7,0Z" transform="translate(349 344)" fill="none" stroke="#5071c7" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_198" data-name="Rectangle 198" width="8" height="9" rx="4" transform="translate(352 335)" fill="none" stroke="#5071c7" stroke-miterlimit="10" stroke-width="2"/>
+    <path id="Rectangle_199" data-name="Rectangle 199" d="M7,0H7a7,7,0,0,1,7,7v3a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" transform="translate(363 342)" fill="none" stroke="#5071c7" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_200" data-name="Rectangle 200" width="8" height="9" rx="4" transform="translate(366 333)" fill="none" stroke="#5071c7" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_201" data-name="Rectangle 201" width="48" height="48" transform="translate(339 318)" fill="none"/>
+  </g>
+</svg>
