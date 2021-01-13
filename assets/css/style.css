@@ -148,6 +148,7 @@ li.buy-now-btn a:hover {
 }
 
 li.langues-change {
+  display: none;
   margin-left: 16px;
   color: #5071c7;
 }
@@ -162,7 +163,7 @@ li.langues-change a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 140px);
   display: flex;
   align-items: center;
   position: relative;

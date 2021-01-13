@@ -164,6 +164,8 @@ $('.close-btn').click(function(){
 document.addEventListener("scroll",function(){
     if($(window).scrollTop() > 1200){
         $('.buy-btn-slider').removeClass("hide-btn")
+    }else{
+        $('.buy-btn-slider').addClass("hide-btn")
     }
-    console.log($(window).scrollTop())
+   
 })
